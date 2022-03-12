@@ -27,6 +27,7 @@ export default function Itinerary(props) {
                 <div className="image-holder">
                   <img
                     src={el.imageUrl}
+                    alt={""}
                     style={{ height: "250px", width: "350px" }}
                   />
                 </div>
