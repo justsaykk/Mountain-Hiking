@@ -8,7 +8,7 @@ Tech Used:
 3) ReactJS
 
 There are a total of 4 pages
-**First page (Home Page):**
+**First page (Home Page):** \n
 This is the about page. It should show what the company is about and also introduce the team members
 
 **Second page (Get Inspired):**
