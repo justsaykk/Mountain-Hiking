@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Mountain Hiking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a one-page application that was created using ReactJS
 
-## Available Scripts
+Tech Used:
+1) React Cards
+2) React Router
+3) ReactJS
 
-In the project directory, you can run:
+There are a total of 4 pages
+**First page (Home Page):**
+This is the about page. It should show what the company is about and also introduce the team members
 
-### `npm start`
+**Second page (Get Inspired):**
+This is the page where users can go to search about mountains. At the top of the page, there should be a row of cards that introduces the peaks of each continent. Also on the page, there is an API call to wikipedia. 
+Potential improvements that could be done:
+1) Have a database of mountains names. When users search for a something, the search would first try to match the search with the mountain names and if it is a match, send the request to wikipedia.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Third page (Products):**
+The third page is a list of tour packages that the company offers to potential clients
+Users should be able to click a button to add the specific item to the cart in the next page.
+Items should be only able to be added once. (Users should go to the carts page to input number of participants)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Fourth page (Cart):**
+This is the cart page. 
+There should be a subtotals section to let users know how much to pay.
+Users should be able to input the number of participants that is going for the package. 
+The cart page will then update the subtotals to reflect the amount. 
